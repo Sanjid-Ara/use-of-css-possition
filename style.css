@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* start of container-1 */
+.container-1{
+    height: 150px;
+    width: 600px;
+    background-color: #D8E9FF;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.container-1 .static{
+    height: 150px;
+    width: 150px;
+    background-color: #F7CF90;
+}
+.container-1 .relative{
+    height: 150px;
+    width: 150px;
+    background-color: #B4D6FF;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+.container-1 .static-2{
+    height: 150px;
+    width: 150px;
+    background-color: #F7CF90;
+    margin-left: 120px;
+}
+
+/* start of container-2 */
+.container-2{
+    height: 150px;
+    width: 600px;
+    background-color: #D8E9FF;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.container-2 .absolute{
+    height: 150px;
+    width: 150px;
+    background-color: #CAC6F7;
+    box-shadow: 5px -5px #F7CF90;
+    position: absolute;
+    top: 215px;
+}
+.container-2 .static{
+    height: 150px;
+    width: 150px;
+    background-color: #F7CF90;
+    margin-left: 420px;
+}
+
+/* start of container-3 */
+.container-3{
+    height: 150px;
+    width: 600px;
+    background-color: #D8E9FF;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.container-3 .static{
+    height: 150px;
+    width: 150px;
+    background-color: #F7CF90;
+}
+.container-3 .fixed{
+    height: 150px;
+    width: 150px;
+    background-color: #F19A9E;
+    position: fixed;
+    left: 600px;
+    
+}
+.container-3 .static-2{
+    height: 150px;
+    width: 150px;
+    background-color: #F7CF90;
+    margin-left: 270px;
+}
